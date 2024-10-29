@@ -18,6 +18,10 @@
     border-radius: 5px;
     margin-bottom: 10px;
     background-color: #fff;
+    color: black;
+}
+.todoList-item.done {
+    background: limegreen;
 }
 
 .todoList-item-title {

@@ -9,7 +9,7 @@ export default class TodoForm extends React.Component {
     };
 
     handleSubmit = (e) => {
-        console.log(this.props);
+        // console.log(this.props);
         e.preventDefault();
         this.props.addTask();
         // this.props.addTodo(this.state.userInput);
